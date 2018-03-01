@@ -1,0 +1,147 @@
+@keyframes example {
+    from {background-color: #ffffff;}
+    to {background-color: #dddddd;}
+}
+
+
+.dropzone{
+	border:none;	
+}
+
+.mwdz-parent{
+	display:block;
+	position:fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	width:170px;
+	height:100%;
+	z-index:10000;
+	background-color:white;
+	border:1px solid #dddddd;
+	overflow:hidden;
+}
+.mwdz-toolbar{
+	animation-name:example;
+	animation-duration:3s;
+
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	height:50px;	
+	width:100%;
+	background-color:#dddddd;
+}
+
+.mwdz-parent .mwdzText{
+	position:absolute;
+	width:100%;
+	top:50px;
+	height:50px;
+}
+
+.mwdz-parent #mwdzTextArea{
+	width:100%;
+	height:100%;
+}
+
+#mwdzdropzone{
+	display:block;
+	position:absolute;
+	top:100px;
+	left:0;
+	bottom:0;
+	width:100%;
+	background-color:white;
+	padding: 7px 7px;
+	overflow-y:auto;
+}
+
+#mwdzdropzone .mwdz-overwrite{
+	text-align:center;
+}
+#mwdzdropzone .mwdz-result{
+	text-align:center;
+}
+#mwdzdropzone .mwdz-block-btn{
+	display:block;
+	width:100%;
+}
+
+#mwdzLt{
+	position:absolute;
+	left:0;
+	top:0;
+}
+#mwdzLb{
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+#mwdzRt{
+	position:absolute;
+	right:0;
+	top:0;
+}
+#mwdzRb{
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+#mwdzToolbarCenter{
+	position:absolute;
+	left:25px;
+	right:25px;
+	top:0;
+	bottom:0;	
+	text-align:center;
+}
+#mwdzToolbarTitle{
+	text-align:center;
+	font-size:.8em;
+}
+#mwdzMin{
+	padding:2px;
+}
+#mwdzHalf{
+	padding:2px;	
+}
+#mwdzFull{
+	padding:2px;
+}
+
+#mwdzdropzone .mwdz-yes{
+	display:inline-block;
+}
+#mwdzdropzone .mwdz-no{
+	display:inline-block;
+}
+
+#mwdzdropzone .mwdz-state{
+	color:#cc0000;
+	margin-top:5px;
+	text-align:center;
+}
+
+#mwdzdropzone .dz-preview{
+	display:block;
+	margin:8px;
+}
+.dz-preview .dz-image{
+	left:50%;
+	margin-left:-60px;
+}
+.mwdz-copy-clipboard{
+	margin-top:2px;
+	padding:2px;
+	border:1px solid #dddddd;
+}
+
+.mwdz-btn {
+	margin:2px;
+}
+
+.mwdz-block-btn {
+	margin-top:2px;
+}
